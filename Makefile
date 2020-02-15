@@ -12,8 +12,7 @@ check: check-json ## Checks all linting, styling, & other rules
 clean: ## Cleans up project
 .PHONY: clean
 
-JSON_SOURCES := $(shell find . -type f -name '*.json' -not -path './tmp/*' -and -not -path './vendor/*')
-JSON_SOURCES += INDEX
+JSON_SOURCES := $(shell find . -name '*.json' -not -path './tmp/*' -and -not -path './vendor/*')
 CHECK_TOOLS += jq
 
 check-json: checktools
