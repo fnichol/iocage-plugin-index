@@ -3,7 +3,7 @@
   "plugin_schema": "2",
   "release": "11.3-RELEASE",
   "artifact": "https://github.com/fnichol/iocage-plugin-gitea.git",
-  "pkgs": ["www/nginx", "www/gitea"],
+  "pkgs": ["shells/bash", "www/nginx", "www/gitea"],
   "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/latest",
   "fingerprints": {
     "iocage-plugins": [
