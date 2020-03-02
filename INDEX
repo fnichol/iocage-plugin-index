@@ -12,5 +12,12 @@
     "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/nginx.png",
     "description": "nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
     "official": false
+  },
+  "syncthing": {
+    "MANIFEST": "syncthing.json",
+    "name": "Syncthing",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/syncthing.png",
+    "description": "Syncthing is a continuous file synchronization program which synchronizes files between two or more computers in real time, safely protected from prying eyes.",
+    "official": false
   }
 }
