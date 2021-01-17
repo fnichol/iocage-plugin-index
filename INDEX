@@ -19,5 +19,12 @@
     "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/syncthing.png",
     "description": "Syncthing is a continuous file synchronization program which synchronizes files between two or more computers in real time, safely protected from prying eyes.",
     "official": false
+  },
+  "transmission": {
+    "MANIFEST": "transmission.json",
+    "name": "Transmission",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/transmission.png",
+    "description": "Transmission is a cross-platform BitTorrent client that is open source, easy, lean, native, and powerful.",
+    "official": false
   }
 }
