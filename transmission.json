@@ -3,7 +3,17 @@
   "plugin_schema": "2",
   "release": "12.2-RELEASE",
   "artifact": "https://github.com/fnichol/iocage-plugin-transmission.git",
-  "pkgs": ["net-p2p/transmission-daemon", "www/transmission-web"],
+  "pkgs": [
+    "net-p2p/transmission-cli",
+    "net-p2p/transmission-daemon",
+    "security/openvpn",
+    "textproc/jq",
+    "www/transmission-web"
+  ],
+  "properties": {
+    "vnet": "on",
+    "allow_tun": "1"
+  },
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
     "iocage-plugins": [
