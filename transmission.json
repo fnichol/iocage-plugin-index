@@ -11,8 +11,10 @@
     "www/transmission-web"
   ],
   "properties": {
-    "vnet": "on",
-    "allow_tun": "1"
+    "allow_raw_sockets": "1",
+    "allow_tun": "1",
+    "bpf": "yes",
+    "vnet": "on"
   },
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
