@@ -55,12 +55,11 @@ For more detailed information on creating a plugin, see [Create a Plugin][].
 Install a plugin using a local file:
 
 ```sh
-iocage fetch -P /path/to/local/file.json ip4_addr="$interface|$ipaddress"
+iocage fetch -P /path/to/local/file.json ip4_addr="vnet0|$ipaddress"
 ```
 
-where `$interface` is the name of the active network interface and `$ipaddress`
-is the desired IP address for the plugin. For example,
-`ip4_addr="em0|10.238.4.196"`.
+where `$ipaddress` is the desired IP address for the plugin. For example,
+`ip4_addr="vnet0|10.238.4.196"`.
 
 ### Pulling From The Internet
 
@@ -70,12 +69,11 @@ Install a plugin from the internet:
 iocage fetch \
   -P gitea \
   -g https://github.com/fnichol/iocage-plugin-index \
-  ip4_addr="$interface|$ipaddress"
+  ip4_addr="vnet0|$ipaddress"
 ```
 
-where `$interface` is the name of the active network interface and `$ipaddress`
-is the desired IP address for the plugin. For example,
-`ip4_addr="igb0|192.168.0.91"`
+where `$ipaddress` is the desired IP address for the plugin. For example,
+`ip4_addr="vnet0|192.168.0.91"`
 
 ## Code of Conduct
 
