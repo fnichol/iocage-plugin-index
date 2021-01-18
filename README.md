@@ -46,7 +46,7 @@ plugins.
 For more detailed information on creating a plugin, see [Create a Plugin][].
 
 [create a plugin]:
-  https://www.ixsystems.com/documentation/freenas/11.3-RELEASE/plugins.html#create-a-plugin
+  https://www.truenas.com/docs/hub/contributing/creating-plugins/
 
 ## Installing Plugins
 
