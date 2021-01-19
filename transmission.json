@@ -6,6 +6,7 @@
   "pkgs": [
     "net-p2p/transmission-cli",
     "net-p2p/transmission-daemon",
+    "net-p2p/transmission-utils",
     "security/openvpn",
     "textproc/jq",
     "www/transmission-web"
