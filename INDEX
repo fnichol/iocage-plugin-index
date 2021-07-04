@@ -2,28 +2,28 @@
   "gitea": {
     "MANIFEST": "gitea.json",
     "name": "Gitea",
-    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/gitea.png",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/gitea.png",
     "description": "Gitea is a community managed lightweight code hosting solution written in Go. It is published under the MIT license.",
     "official": false
   },
   "nginx": {
     "MANIFEST": "nginx.json",
     "name": "nginx",
-    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/nginx.png",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/nginx.png",
     "description": "nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
     "official": false
   },
   "syncthing": {
     "MANIFEST": "syncthing.json",
     "name": "Syncthing",
-    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/syncthing.png",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/syncthing.png",
     "description": "Syncthing is a continuous file synchronization program which synchronizes files between two or more computers in real time, safely protected from prying eyes.",
     "official": false
   },
   "transmission": {
     "MANIFEST": "transmission.json",
     "name": "Transmission",
-    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/master/icons/transmission.png",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/transmission.png",
     "description": "Transmission is a cross-platform BitTorrent client that is open source, easy, lean, native, and powerful.",
     "official": false
   }

@@ -99,8 +99,8 @@ your design, and help you find out if someone else is working on the same thing.
 
 ## Release History
 
-This project uses a "deployable master" strategy, meaning that the `master`
-branch is assumed to be working and production ready. As such there is no formal
+This project uses a "deployable main" strategy, meaning that the `main` branch
+is assumed to be working and production ready. As such there is no formal
 versioning process and therefore also no formal changelog documentation.
 
 ## Authors
@@ -123,8 +123,7 @@ liked plugin projects contain their own respective licenses.
   https://api.cirrus-ci.com/github/fnichol/iocage-plugin-index.svg
 [ci]: https://cirrus-ci.com/github/fnichol/iocage-plugin-index
 [code-of-conduct]:
-  https://github.com/fnichol/iocage-plugin-index/blob/master/CODE_OF_CONDUCT.md
+  https://github.com/fnichol/iocage-plugin-index/blob/main/CODE_OF_CONDUCT.md
 [fnichol]: https://github.com/fnichol
 [issues]: https://github.com/fnichol/iocage-plugin-index/issues
-[license]:
-  https://github.com/fnichol/iocage-plugin-index/blob/master/LICENSE.txt
+[license]: https://github.com/fnichol/iocage-plugin-index/blob/main/LICENSE.txt
