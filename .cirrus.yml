@@ -1,5 +1,5 @@
 check_task:
   container:
     image: fnichol/check-shell:latest
-  setup_script: apk add jq
+  setup_script: apk add curl jq py3-jsonschema
   check_script: make check
