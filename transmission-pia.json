@@ -1,12 +1,13 @@
 {
-  "name": "transmission",
+  "name": "transmission-pia",
   "release": "12.2-RELEASE",
-  "artifact": "https://github.com/fnichol/iocage-plugin-transmission.git",
+  "artifact": "https://github.com/fnichol/iocage-plugin-transmission-pia.git",
   "pkgs": [
     "net-p2p/transmission-cli",
     "net-p2p/transmission-daemon",
     "net-p2p/transmission-utils",
-    "security/openvpn",
+    "net/wireguard-go",
+    "net/wireguard-tools",
     "textproc/jq",
     "www/transmission-web"
   ],

@@ -23,12 +23,12 @@
     "official": false,
     "primary_pkg": "syncthing"
   },
-  "transmission": {
-    "MANIFEST": "transmission.json",
+  "transmission-pia": {
+    "MANIFEST": "transmission-pia.json",
     "name": "Transmission",
-    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/transmission.png",
-    "description": "Transmission is a cross-platform BitTorrent client that is open source, easy, lean, native, and powerful.",
+    "icon": "https://github.com/fnichol/iocage-plugin-index/raw/main/icons/transmission-pia.png",
+    "description": "Transmission is a cross-platform BitTorrent client that is open source, easy, lean, native, and powerful running through a Private Internet Access WireGuard VPN connection.",
     "official": false,
-    "primary_pkg": "transmission"
+    "primary_pkg": "transmission-daemon"
   }
 }
