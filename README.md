@@ -6,10 +6,10 @@ A boutique set of community [iocage][] plugins for [FreeNAS][], [TrueOS][], and
 This project takes inspiration and direction from iXsystems' [ix-plugin-hub
 index][], which acts as the official community plugins for FreeNAS and TrueOS.
 
-|         |                                      |
-| ------: | ------------------------------------ |
-|      CI | [![CI Status][badge-ci-overall]][ci] |
-| License | [![License][badge-license]][license] |
+|         |                                                                                          |
+| ------: | ---------------------------------------------------------------------------------------- |
+|      CI | [![CI Status][badge-ci-overall]][ci]<br /> [![Bors enabled][badge-bors]][bors-dashboard] |
+| License | [![License][badge-license]][license]                                                     |
 
 [iocage]: https://github.com/iocage/iocage
 [ix-plugin-hub index]: https://github.com/ix-plugin-hub/iocage-plugin-index
@@ -121,6 +121,7 @@ liked plugin projects contain their own respective licenses.
 [badge-license]: https://img.shields.io/badge/License-MPL%202.0%20-blue.svg
 [badge-ci-overall]:
   https://api.cirrus-ci.com/github/fnichol/iocage-plugin-index.svg
+[bors-dashboard]: https://app.bors.tech/repositories/34996
 [ci]: https://cirrus-ci.com/github/fnichol/iocage-plugin-index
 [code-of-conduct]:
   https://github.com/fnichol/iocage-plugin-index/blob/main/CODE_OF_CONDUCT.md
