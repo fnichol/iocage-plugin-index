@@ -118,6 +118,7 @@ licensed as above, without any additional terms or conditions.
 **Note** the contents of this project fall under the above license, however the
 liked plugin projects contain their own respective licenses.
 
+[badge-bors]: https://bors.tech/images/badge_small.svg
 [badge-license]: https://img.shields.io/badge/License-MPL%202.0%20-blue.svg
 [badge-ci-overall]:
   https://api.cirrus-ci.com/github/fnichol/iocage-plugin-index.svg
