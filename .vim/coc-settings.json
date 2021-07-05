@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/*.json", "!/INDEX.json"],
+      "url": "https://raw.githubusercontent.com/iocage/iocage/master/iocage_lib/plugin_manifest.json"
+    },
+    {
+      "fileMatch": ["/INDEX.json", "/INDEX"],
+      "url": "https://raw.githubusercontent.com/ix-plugin-hub/iocage-plugin-index/master/index.schema"
+    }
+  ]
+}
